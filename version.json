@@ -1,5 +1,5 @@
 {
-  "version": "1.3.0",
-  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.0/UltraGrab_Pro_v1.3.0.zip",
-  "release_notes": "Auto-update now working. YouTube 4K fix. Playlist loop fix."
+  "version": "1.3.1",
+  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.1/UltraGrab_Pro_v1.3.1.zip",
+  "release_notes": "Fix: auto-update now works correctly."
 }
