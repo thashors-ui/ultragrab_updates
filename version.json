@@ -1,5 +1,5 @@
 {
-  "version": "1.3.6",
-  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.6/UltraGrab_Pro_v1.3.6.zip",
-  "release_notes": "Auto-update fixed. Click Yes and it works."
+  "version": "1.3.7",
+  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.7/UltraGrab_Pro_v1.3.7.zip",
+  "release_notes": "Fix: No module named core.updater. Auto-update now works."
 }
