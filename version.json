@@ -1,5 +1,5 @@
 {
-  "version": "1.3.3",
-  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.3/UltraGrab_Pro_v1.3.3.zip",
-  "release_notes": "Fix: auto-update install now works reliably."
+  "version": "1.3.4",
+  "download_url": "https://github.com/thashors-ui/ultragrab_pro/releases/download/v1.3.4/UltraGrab_Pro_v1.3.4.zip",
+  "release_notes": "Auto-update completely rewritten and reliable."
 }
