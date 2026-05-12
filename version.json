@@ -1,12 +1,9 @@
 {
-  "version": "1.7.4",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.7.4/UltraGrab-Pro-Setup-v1.7.4.exe",
+  "version": "1.7.5",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.7.5/UltraGrab-Pro-Setup-v1.7.5.exe",
   "changelog": [
-    "Fix: Auto-update now works — downloads and installs the new version silently",
-    "Fix: YouTube downloads now work — switched to android client (bypasses bot detection)",
-    "Fix: YouTube channel/playlist scrape no longer shows 'No videos found'",
-    "Fix: Facebook downloads automatically try browser cookies on any error",
-    "Fix: Ctrl+A now selects all queue items",
-    "Fix: Mouse hover now highlights queue rows correctly"
+    "Fix: Facebook Reels now download correctly — removed overly strict format filter",
+    "Fix: YouTube downloads no longer fail with 403 — switched to iOS client (simpler HTTP streams)",
+    "Fix: TikTok videos now retry automatically with browser cookies on any failure"
   ]
 }
