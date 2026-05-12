@@ -1,10 +1,11 @@
 {
-  "version": "1.7.6",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.7.6/UltraGrab-Pro-Setup-v1.7.6.exe",
+  "version": "1.7.9",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.7.9/UltraGrab-Pro-Setup-v1.7.9.exe",
   "changelog": [
-    "Fix: Queue rows stay selected — selection no longer cleared every 500ms",
-    "Fix: Right-click Retry now starts downloading immediately",
-    "Fix: Facebook Reels, YouTube 403, TikTok video downloads",
-    "Fix: Auto-update installer verified before app relaunches"
+    "Fix: Downloads no longer fail when Chrome is open — browser cookie lock now handled gracefully",
+    "Fix: TikTok photo slideshows show a clear error instead of failing silently",
+    "Fix: TikTok video — mobile API was misconfigured, now correctly bypasses bot detection",
+    "Fix: YouTube — browser cookies injected upfront to avoid 403 errors",
+    "Fix: Facebook Reels — tries alternative URL format when video formats not found"
   ]
 }
