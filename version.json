@@ -1,11 +1,8 @@
 {
-  "version": "1.7.9",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.7.9/UltraGrab-Pro-Setup-v1.7.9.exe",
+  "version": "1.8.1",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.1/UltraGrab-Pro-Setup-v1.8.1.exe",
   "changelog": [
-    "Fix: Downloads no longer fail when Chrome is open — browser cookie lock now handled gracefully",
-    "Fix: TikTok photo slideshows show a clear error instead of failing silently",
-    "Fix: TikTok video — mobile API was misconfigured, now correctly bypasses bot detection",
-    "Fix: YouTube — browser cookies injected upfront to avoid 403 errors",
-    "Fix: Facebook Reels — tries alternative URL format when video formats not found"
+    "Fix: YouTube now downloads actual video — storyboard/thumbnail formats (mhtml) are excluded",
+    "Fix: Show in Folder no longer crashes with 'Path is not defined'"
   ]
 }
