@@ -1,8 +1,9 @@
 {
-  "version": "1.8.2",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.2/UltraGrab-Pro-Setup-v1.8.2.exe",
+  "version": "1.8.3",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.3/UltraGrab-Pro-Setup-v1.8.3.exe",
   "changelog": [
-    "Fix: TikTok single videos no longer hang at 'Fetching' — scrape now uses impersonation and browser cookies",
-    "Fix: TikTok download requests time out after 30s instead of freezing the app"
+    "New: Bilibili support — download videos, anime, and drama episodes from bilibili.com",
+    "New: Bilibili channel/space scraping (space.bilibili.com/UID)",
+    "New: Bilibili bangumi series support (bilibili.com/bangumi/play/...)"
   ]
 }
