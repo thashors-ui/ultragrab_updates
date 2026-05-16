@@ -1,11 +1,11 @@
 {
-  "version": "1.8.11",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.11/UltraGrab-Pro-Setup-v1.8.11.exe",
+  "version": "1.8.13",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.13/UltraGrab-Pro-Setup-v1.8.13.exe",
   "changelog": [
-    "New: Facebook videos now download without login for public pages — reads CDN URL directly from page HTML",
-    "New: Facebook profile/page scrape now tries HTML extraction before requiring cookies",
-    "Fix: Auto-update installer now logs each step to %TEMP%\\ug_update_log.txt for diagnosis",
-    "Fix: Auto-update process more reliable on Windows 11 (CREATE_NEW_PROCESS_GROUP flag)",
-    "Fix: Auto-update message explains install takes 30-60 seconds before app reopens"
+    "New: WeTV / Tencent Video (wetv.vip, v.qq.com) — download dramas and movies",
+    "New: WeTV series scraping — paste a series URL to queue all episodes automatically",
+    "New: WeTV uses built-in Chromium browser to intercept HLS stream — works for premium content",
+    "New: Facebook videos now download without login for public pages",
+    "Fix: Auto-update now reliable on Windows 11 — logs steps to %TEMP%\\ug_update_log.txt"
   ]
 }
