@@ -1,10 +1,10 @@
 {
-  "version": "1.8.5",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.5/UltraGrab-Pro-Setup-v1.8.5.exe",
+  "version": "1.8.9",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.9/UltraGrab-Pro-Setup-v1.8.9.exe",
   "changelog": [
-    "Fix: TikTok profile/user scrape now finds videos — uses extract_flat first to avoid bot detection",
-    "Fix: TikTok profile entries with bare video IDs now reconstruct proper video URLs",
-    "Fix: DramaBox episodes now download full length — auto-injects browser login cookies",
-    "Fix: DramaBox preview/trailer clips are skipped — full episode URL used instead"
+    "Fix: Facebook page/profile scrape now tries yt-dlp first — works for public pages without login cookies",
+    "Fix: Cookie-not-found message now explains 'Add Single URL' as the no-cookie fallback",
+    "Fix: Auto-update message now explains install takes 30-60 seconds in background",
+    "Fix: Auto-update closing countdown extended to 5 seconds so message is fully readable"
   ]
 }
