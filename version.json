@@ -1,9 +1,10 @@
 {
-  "version": "1.8.3",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.3/UltraGrab-Pro-Setup-v1.8.3.exe",
+  "version": "1.8.5",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.5/UltraGrab-Pro-Setup-v1.8.5.exe",
   "changelog": [
-    "New: Bilibili support — download videos, anime, and drama episodes from bilibili.com",
-    "New: Bilibili channel/space scraping (space.bilibili.com/UID)",
-    "New: Bilibili bangumi series support (bilibili.com/bangumi/play/...)"
+    "Fix: TikTok profile/user scrape now finds videos — uses extract_flat first to avoid bot detection",
+    "Fix: TikTok profile entries with bare video IDs now reconstruct proper video URLs",
+    "Fix: DramaBox episodes now download full length — auto-injects browser login cookies",
+    "Fix: DramaBox preview/trailer clips are skipped — full episode URL used instead"
   ]
 }
