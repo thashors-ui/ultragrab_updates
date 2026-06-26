@@ -1,12 +1,5 @@
 {
-  "version": "1.8.17",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.17/UltraGrab-Pro-Setup-v1.8.17.exe",
-  "changelog": [
-    "Fix: YouTube downloads working again (iOS client broken by Google — switched to new method)",
-    "New: TikTok login inside app (Help → Login to TikTok) — fixes profile 'No videos found'",
-    "New: WeTV login inside app (Help → Login to WeTV) — download premium episodes",
-    "New: Drama sites now bypass Cloudflare using built-in browser as last fallback",
-    "Fix: DramaBox premium episodes — cookie lookup now finds login on both old and new domain",
-    "Fix: Facebook profile scrape — regular videos no longer get wrong URL format"
-  ]
+  "version": "1.8.18",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.18/UltraGrab-Pro-Setup-v1.8.18.exe",
+  "changelog": []
 }
