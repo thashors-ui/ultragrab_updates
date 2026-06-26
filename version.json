@@ -1,6 +1,6 @@
 {
-  "version": "1.8.16",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.16/UltraGrab-Pro-Setup-v1.8.16.exe",
+  "version": "1.8.17",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.17/UltraGrab-Pro-Setup-v1.8.17.exe",
   "changelog": [
     "Fix: YouTube downloads working again (iOS client broken by Google — switched to new method)",
     "New: TikTok login inside app (Help → Login to TikTok) — fixes profile 'No videos found'",
