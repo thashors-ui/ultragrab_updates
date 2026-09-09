@@ -1,7 +1,12 @@
 {
-  "version": "1.8.29",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.29/UltraGrab-Pro-Setup-v1.8.29.exe",
+  "version": "1.8.37",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.37/UltraGrab-Pro-Setup-v1.8.37.exe",
   "changelog": [
-    "Fix: Pasting a Facebook Reels video URL (reels/ID) now goes straight to download — no longer opens empty profile dialog"
+    "New: Public Suno songs download with no Suno login — paste a suno.com/song or suno.com/s link and get the track as M4A (or MP3 when MP3 output is selected)",
+    "New: Signing in to Suno (from the Help menu) is now optional and only needed for your own private / unreleased songs",
+    "Improved: Pinterest single-Pin downloads now fetch the original image and the highest-quality video directly, handle pin.it short links, and keep the real file type",
+    "New: Pinterest boards can be added to the queue — every Pin is enumerated and downloaded through the normal download list",
+    "Fixed: Adding a scraped board/profile to the queue no longer stops at the first already-queued item — remaining new items are still added",
+    "Fixed: An invalid or expired pin.it / suno.com/s link now reports a clear error instead of grabbing an unrelated item"
   ]
 }
