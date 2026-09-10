@@ -1,9 +1,10 @@
 {
-  "version": "1.8.38",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.38/UltraGrab-Pro-Setup-v1.8.38.exe",
+  "version": "1.8.39",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.39/UltraGrab-Pro-Setup-v1.8.39.exe",
   "changelog": [
-    "Fixed: A fresh install of the previous version could open briefly and then close on some PCs — the app now starts normally",
-    "Fixed: Pinned the Qt display runtime to the last version verified working, so the startup crash cannot come back on a routine dependency update",
-    "Fixed: Installing an update now clears out the old program files first, so leftover mismatched runtime files can't stop the app from launching (your settings, download queue and saved logins are kept)"
+    "New: Pasting a Pinterest board or profile link and clicking Add now finds every Pin in the background and adds them to the download list automatically — no extra dialog, and the window stays responsive",
+    "New: pin.it short links are resolved automatically — a single Pin adds one item, a board or profile is expanded like any other",
+    "Improved: Pinterest discovery progress shows in the status bar (\"Discovering pins…\", then how many were found, added and skipped as duplicates)",
+    "Improved: Pinterest board/profile discovery can be stopped with Pause All or Clear All, and always finishes within a fixed time limit"
   ]
 }
