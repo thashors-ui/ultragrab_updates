@@ -1,9 +1,7 @@
 {
-  "version": "1.8.38",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.38/UltraGrab-Pro-Setup-v1.8.38.exe",
+  "version": "1.8.29",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.29/UltraGrab-Pro-Setup-v1.8.29.exe",
   "changelog": [
-    "Fixed: A fresh install of the previous version could open briefly and then close on some PCs — the app now starts normally",
-    "Fixed: Pinned the Qt display runtime to the last version verified working, so the startup crash cannot come back on a routine dependency update",
-    "Fixed: Installing an update now clears out the old program files first, so leftover mismatched runtime files can't stop the app from launching (your settings, download queue and saved logins are kept)"
+    "Fix: Pasting a Facebook Reels video URL (reels/ID) now goes straight to download — no longer opens empty profile dialog"
   ]
 }
