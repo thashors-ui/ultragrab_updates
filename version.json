@@ -1,10 +1,11 @@
 {
-  "version": "1.8.39",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.39/UltraGrab-Pro-Setup-v1.8.39.exe",
+  "version": "1.8.40",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.40/UltraGrab-Pro-Setup-v1.8.40.exe",
   "changelog": [
-    "New: Pasting a Pinterest board or profile link and clicking Add now finds every Pin in the background and adds them to the download list automatically — no extra dialog, and the window stays responsive",
-    "New: pin.it short links are resolved automatically — a single Pin adds one item, a board or profile is expanded like any other",
-    "Improved: Pinterest discovery progress shows in the status bar (\"Discovering pins…\", then how many were found, added and skipped as duplicates)",
-    "Improved: Pinterest board/profile discovery can be stopped with Pause All or Clear All, and always finishes within a fixed time limit"
+    "Added: ZenRows protected-page fallback for selected Drama sites",
+    "Improved: Drama media validation to reject HTML/JSON/error payloads",
+    "Added: safe HTTP Debug ID + request/correlation capture",
+    "Added: automatic HTTP debug-log rotation",
+    "Improved: Drama download reliability and troubleshooting"
   ]
 }
