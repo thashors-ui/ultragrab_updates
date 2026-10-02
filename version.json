@@ -1,10 +1,19 @@
 {
-  "version": "1.8.41",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.41/UltraGrab-Pro-Setup-v1.8.41.exe",
+  "version": "1.8.42",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.42/UltraGrab-Pro-Setup-v1.8.42.exe",
   "changelog": [
-    "Improved: DramaBox episode detection now checks every valid media source for an episode instead of stopping at the first one",
-    "Fixed: A locked or unavailable DramaBox episode now fails immediately with a clear message instead of retrying uselessly",
-    "Fixed: The download queue now continues automatically to the next episode after a locked or unavailable one",
-    "Improved: Full-episode vs. preview-clip detection accuracy for DramaBox downloads"
+    "New: License Key Required — Starting with UltraGrab Pro v1.8.42, a valid Central License Key is required to use the application",
+    "Note: Earlier UltraGrab Pro releases continue to use their existing legacy activation system",
+    "Improved: License validation and application startup security",
+    "Fixed: An expired license can no longer be used by going offline — the app now stays locked until the license is renewed",
+    "Removed: The legacy Telegram Bot activation and launch tracking from this version",
+    "Improved: Uninstalling or reinstalling UltraGrab Pro keeps this device's license activation",
+    "Fixed: Reddit HLS video downloading and temporary fragment cleanup",
+    "Fixed: High-quality YouTube downloads restored — the best available source quality is used again",
+    "Fixed: Final merged output detection for Vimeo / Other platforms",
+    "Improved: Instagram public download handling and cookie fallback",
+    "Fixed: Public Facebook videos now download even when the saved browser session is logged out or stale",
+    "Fixed: Twitter/X videos with a separate audio track no longer show as failed after the download finishes",
+    "Added: Regression coverage for the updated download platforms"
   ]
 }
