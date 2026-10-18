@@ -1,19 +1,11 @@
 {
-  "version": "1.8.42",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.42/UltraGrab-Pro-Setup-v1.8.42.exe",
+  "version": "1.8.44",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.44/UltraGrab-Pro-Setup-v1.8.44.exe",
   "changelog": [
-    "New: License Key Required — Starting with UltraGrab Pro v1.8.42, a valid Central License Key is required to use the application",
-    "Note: Earlier UltraGrab Pro releases continue to use their existing legacy activation system",
-    "Improved: License validation and application startup security",
-    "Fixed: An expired license can no longer be used by going offline — the app now stays locked until the license is renewed",
-    "Removed: The legacy Telegram Bot activation and launch tracking from this version",
-    "Improved: Uninstalling or reinstalling UltraGrab Pro keeps this device's license activation",
-    "Fixed: Reddit HLS video downloading and temporary fragment cleanup",
-    "Fixed: High-quality YouTube downloads restored — the best available source quality is used again",
-    "Fixed: Final merged output detection for Vimeo / Other platforms",
-    "Improved: Instagram public download handling and cookie fallback",
-    "Fixed: Public Facebook videos now download even when the saved browser session is logged out or stale",
-    "Fixed: Twitter/X videos with a separate audio track no longer show as failed after the download finishes",
-    "Added: Regression coverage for the updated download platforms"
+    "Fixed: TikTok Short Drama episode links (tiktok.com/shortdrama/episode/...) now download instead of failing with \"Unsupported URL\"",
+    "Fixed: A Short Drama link without an episode number downloads Episode 1, the same episode TikTok opens",
+    "Improved: A removed or region-unavailable TikTok Short Drama now fails once with a clear message instead of retrying",
+    "Fixed: TikTok MP3 downloads no longer fail with \"output file not found\" after the audio is converted",
+    "Fixed: Automatic update notifications — the \"Update Available\" prompt and status-bar button now appear when a new version is released"
   ]
 }
