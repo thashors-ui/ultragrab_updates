@@ -1,11 +1,11 @@
 {
-  "version": "1.8.44",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.44/UltraGrab-Pro-Setup-v1.8.44.exe",
+  "version": "1.8.45",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.45/UltraGrab-Pro-Setup-v1.8.45.exe",
   "changelog": [
-    "Fixed: TikTok Short Drama episode links (tiktok.com/shortdrama/episode/...) now download instead of failing with \"Unsupported URL\"",
-    "Fixed: A Short Drama link without an episode number downloads Episode 1, the same episode TikTok opens",
-    "Improved: A removed or region-unavailable TikTok Short Drama now fails once with a clear message instead of retrying",
-    "Fixed: TikTok MP3 downloads no longer fail with \"output file not found\" after the audio is converted",
-    "Fixed: Automatic update notifications — the \"Update Available\" prompt and status-bar button now appear when a new version is released"
+    "Fixed: A temporary license-server problem no longer removes this PC's saved activation, so you are not asked to activate again afterwards",
+    "Improved: License messages now explain the real reason when UltraGrab Pro cannot start (saved activation missing or unreadable, server busy, no internet connection, device reset)",
+    "Improved: The licensing-migration notice is shown only when it applies",
+    "Fixed: If a license is revoked or can no longer be confirmed while UltraGrab Pro is open, the app now shows the license message and closes as intended",
+    "Improved: Safer license diagnostics in the log for support, with no license numbers, credentials or tokens recorded"
   ]
 }
