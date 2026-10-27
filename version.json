@@ -1,11 +1,10 @@
 {
-  "version": "1.8.45",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.45/UltraGrab-Pro-Setup-v1.8.45.exe",
+  "version": "1.8.46",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.46/UltraGrab-Pro-Setup-v1.8.46.exe",
   "changelog": [
-    "Fixed: A temporary license-server problem no longer removes this PC's saved activation, so you are not asked to activate again afterwards",
-    "Improved: License messages now explain the real reason when UltraGrab Pro cannot start (saved activation missing or unreadable, server busy, no internet connection, device reset)",
-    "Improved: The licensing-migration notice is shown only when it applies",
-    "Fixed: If a license is revoked or can no longer be confirmed while UltraGrab Pro is open, the app now shows the license message and closes as intended",
-    "Improved: Safer license diagnostics in the log for support, with no license numbers, credentials or tokens recorded"
+    "Fixed: When this PC's activation is reset or removed from your license, UltraGrab Pro now asks you to activate this PC again (same PC, no extra device slot) instead of showing a server error",
+    "Fixed: A license-server answer that only a proxy, captive portal or unexpected response could produce no longer affects this PC's saved activation",
+    "Improved: When all devices of a license are in use, or this PC is still registered, the message explains how to free it in the Account Portal (Devices > Reset Activation)",
+    "Improved: A suspended, cancelled or not-yet-started license is now described as such instead of always as expired"
   ]
 }
