@@ -1,10 +1,18 @@
 {
-  "version": "1.8.46",
-  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.46/UltraGrab-Pro-Setup-v1.8.46.exe",
+  "version": "1.8.58",
+  "download_url": "https://github.com/thashors-ui/ultragrab_updates/releases/download/v1.8.58/UltraGrab-Pro-Setup-v1.8.58.exe",
   "changelog": [
-    "Fixed: When this PC's activation is reset or removed from your license, UltraGrab Pro now asks you to activate this PC again (same PC, no extra device slot) instead of showing a server error",
-    "Fixed: A license-server answer that only a proxy, captive portal or unexpected response could produce no longer affects this PC's saved activation",
-    "Improved: When all devices of a license are in use, or this PC is still registered, the message explains how to free it in the Account Portal (Devices > Reset Activation)",
-    "Improved: A suspended, cancelled or not-yet-started license is now described as such instead of always as expired"
-  ]
+    "New: Includes all improvements from versions 1.8.54 to 1.8.57 (new Drama workspace, Facebook Reels, TikTok and activation fixes)",
+    "Fixed: YouTube now downloads the quality you choose, including 1440p and 4K (it was limited to 1080p)",
+    "Fixed: MP3 mode downloads audio only and keeps the title and artist; saving Settings no longer switches MP3 back to Video",
+    "Fixed: Drama series - every episode downloads its own video and file name, and an episode is only marked Done after the video is checked to be playable",
+    "Changed: DramaShorts, NetShort and StardustTV download only episodes your account can watch; locked episodes now show a clear message",
+    "Fixed: Twitter/X, Instagram, Facebook photo and Xiaohongshu profile scans find posts again",
+    "Fixed: Crashes when searching the Drama Catalog while covers load, cancelling a profile scan, or closing during a conversion",
+    "Fixed: Pause and Remove stop a drama download immediately, and an interrupted download never replaces a finished file",
+    "Improved: Updates are checked with a SHA-256 checksum before they are installed",
+    "Improved: License checks while UltraGrab Pro is open now always take effect, even during downloads",
+    "Known issue: DramaBox downloads are currently unavailable because the DramaBox website blocks them"
+  ],
+  "sha256": "6fdab88e52fc0faf0b3a9884dc122b6b0bf1fde5a18c1d78acc0230df25cbf0b"
 }
